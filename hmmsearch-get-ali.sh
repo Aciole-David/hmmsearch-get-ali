@@ -1,13 +1,8 @@
 #!/bin/bash
-#Get alignment positions from hmmsearch after running Gruber's hmm-prospector
-#
-clear
-echo
-echo
-echo "Get alignment positions from hmmsearch after running Gruber's hmm-prospector"
-echo 
 
-#(1) - Create folders to save intermediate files
+#Get alignment positions from hmmsearch after running gruber's hmmprospector 
+
+#1 - Create folders to save intermediate files
 mkdir temp
 mkdir positions #it may look weird to create two temp folders, but that is how I like (sorry). 
 echo "Temp folders created."
